@@ -67,10 +67,21 @@
             background-color: #f4f4f4;
             margin-top: 20px;
         }
-        /* Fondo gris para la sección Optimizaciones PC */
-        #optimizaciones-pc {
-            background-color: #D3D3D3;  /* Gris claro */
+
+        /* Grid para contenido dentro de la sección */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
         }
+
+        .grid-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            color: #333;
+        }
+
     </style>
 </head>
 <body>
@@ -86,17 +97,24 @@
         <a href="#contacto">Contacto</a>
     </div>
     
-    <!-- Sección Optimizaciones PC con fondo gris -->
+    <!-- Sección Optimizaciones PC -->
     <div class="section" id="optimizaciones-pc">
         <h3>Optimizaciones PC</h3>
         <div class="section-content">
             <p>En esta sección encontrarás las mejores técnicas y consejos para optimizar tu PC, mejorar su velocidad, liberar espacio y mantenerlo funcionando como nuevo.</p>
             
-            <!-- Recuadro con el texto "Optimizacion Mentita v0.01" -->
-            <div class="recuadro">
-                <h4>Optimizacion Mentita v0.01</h4>
-                <p>Haz clic en el siguiente enlace para acceder a la carpeta de optimización: </p>
-                <a href="https://www.mediafire.com/folder/j47b0vm57o5q8/Optimizacion+PC++by+Mentita+Good201" class="btn" target="_blank">Acceder a la carpeta de optimización</a>
+            <!-- Contenedor Grid -->
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h4>Optimizacion Mentita v0.01</h4>
+                    <p>Haz clic en el siguiente enlace para acceder a la carpeta de optimización:</p>
+                    <a href="https://www.mediafire.com/folder/j47b0vm57o5q8/Optimizacion+PC++by+Mentita+Good201" class="btn" target="_blank">Acceder a la carpeta de optimización</a>
+                </div>
+                <div class="grid-item">
+                    <h4>Más Consejos y Herramientas</h4>
+                    <p>Explora más opciones para mejorar el rendimiento de tu PC. Te ofrecemos herramientas adicionales para un sistema aún más rápido.</p>
+                    <a href="#" class="btn">Ver más herramientas</a>
+                </div>
             </div>
         </div>
     </div>
