@@ -6,168 +6,128 @@
     <title>Mentita Optis</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #eaeaea; /* Fondo gris claro para evitar todo blanco */
+            font-family: Arial, sans-serif;
+            background-color: #2e3b4e;
+            color: white;
             margin: 0;
             padding: 0;
-            color: #333; /* Texto oscuro para buen contraste */
         }
-
-        /* Estilo del encabezado */
-        header {
-            background-color: #4CAF50; /* Verde brillante */
-            padding: 50px;
+        .header {
+            background-color: #1a2530;
+            padding: 15px 0;
             text-align: center;
-            font-size: 3em;
-            font-weight: bold;
-            color: white;
-            text-transform: uppercase;
-            letter-spacing: 2px;
+            font-size: 2.5em;
+            color: #00b894;
+            margin-bottom: 30px;
         }
-
-        header h1 {
-            margin: 0;
-        }
-
-        /* Estilo de la barra de navegación */
-        nav {
-            background-color: #333; /* Gris oscuro */
-            padding: 20px;
+        .menu {
             text-align: center;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            background-color: #1a2530;
+            padding: 10px 0;
+            margin-bottom: 20px;
         }
-
-        nav a {
-            color: white;
+        .menu a {
+            color: #00b894;
             text-decoration: none;
-            padding: 15px 25px;
             margin: 0 20px;
             font-size: 1.2em;
-            transition: background-color 0.3s, color 0.3s;
         }
-
-        nav a:hover {
-            background-color: #4CAF50;
-            color: #333;
+        .menu a:hover {
+            text-decoration: underline;
         }
-
-        /* Sección de contenido principal */
-        .content {
-            padding: 60px 20px;
-            text-align: center;
-            background-color: #ffffff; /* Fondo blanco para el contenido */
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave para darle profundidad */
-            margin-top: 20px;
-            border-radius: 8px; /* Bordes redondeados */
-        }
-
-        .content h2 {
-            font-size: 2.8em;
-            margin-bottom: 20px;
-            color: #333;
-        }
-
-        .content p {
-            font-size: 1.3em;
-            line-height: 1.8;
-            max-width: 800px;
-            margin: 0 auto;
-            color: #555; /* Texto gris claro para mejor legibilidad */
-        }
-
-        /* Estilo para las secciones */
         .section {
-            background-color: #ffffff;
-            padding: 40px;
-            margin: 30px auto;
+            padding: 20px;
+            margin: 0 20px;
+            background-color: #34495e;
             border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            max-width: 900px;
+            margin-bottom: 30px;
         }
-
         .section h3 {
-            font-size: 2.4em;
-            color: #333;
-            margin-bottom: 15px;
+            color: #00b894;
         }
-
-        .section p {
-            font-size: 1.2em;
-            color: #555;
-            line-height: 1.6;
-        }
-
-        /* Estilo para el pie de página */
-        footer {
-            background-color: #333; /* Gris oscuro */
-            color: #fff;
-            text-align: center;
-            padding: 30px;
+        .section-content {
             font-size: 1.1em;
         }
-
-        footer p {
-            margin: 0;
+        .btn {
+            background-color: #00b894;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: inline-block;
         }
-
-        /* Estilo para eliminar bordes innecesarios */
-        * {
-            box-sizing: border-box;
+        .btn:hover {
+            background-color: #1abc9c;
+        }
+        .recuadro {
+            border: 2px solid #4CAF50;
+            padding: 15px;
+            border-radius: 10px;
+            background-color: #f4f4f4;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
+    <div class="header">
+        Mentita Optis
+    </div>
+    
+    <div class="menu">
+        <a href="#optimizaciones-pc">Optimizaciones PC</a>
+        <a href="#optimizaciones-android">Optimizaciones Android</a>
+        <a href="#juegos-de-paga">Juegos De Paga Gratis</a>
+        <a href="#lore">Lore</a>
+        <a href="#contacto">Contacto</a>
+    </div>
+    
+    <!-- Sección Optimizaciones PC -->
+    <div class="section" id="optimizaciones-pc">
+        <h3>Optimizaciones PC</h3>
+        <div class="section-content">
+            <p>En esta sección encontrarás las mejores técnicas y consejos para optimizar tu PC, mejorar su velocidad, liberar espacio y mantenerlo funcionando como nuevo.</p>
+            
+            <!-- Recuadro con el texto "Optimizacion Mentita v0.01" -->
+            <div class="recuadro">
+                <h4>Optimizacion Mentita v0.01</h4>
+                <p>Haz clic en el siguiente enlace para acceder a la carpeta de optimización: </p>
+                <a href="https://www.mediafire.com/folder/j47b0vm57o5q8/Optimizacion+PC++by+Mentita+Good201" class="btn" target="_blank">Acceder a la carpeta de optimización</a>
+            </div>
+        </div>
+    </div>
 
-<header>
-    <h1>Mentita Optis</h1>
-</header>
-
-<nav>
-    <a href="#optimizaciones-pc">Optimizaciones PC</a>
-    <a href="#optimizaciones-android">Optimizaciones Android</a>
-    <a href="#juegos-paga-gratis">Juegos De Paga Gratis</a>
-    <a href="#lore">Lore</a>
-    <a href="#contacto">Contacto</a>
-</nav>
-
-<div class="content">
-    <h2>Bienvenido a Mentita Optis</h2>
-    <p>En Mentita Optis, ofrecemos guías detalladas sobre optimización de dispositivos, juegos gratuitos y mucho más. Si buscas mejorar el rendimiento de tu PC o Android, o conocer las últimas novedades en juegos, ¡estás en el lugar adecuado!</p>
-</div>
-
-<!-- Sección de Optimizaciones PC -->
-<div class="section" id="optimizaciones-pc">
-    <h3>Optimizaciones PC</h3>
-    <p>En esta sección encontrarás las mejores técnicas y consejos para optimizar tu PC, mejorar su velocidad, liberar espacio y mantenerlo funcionando como nuevo. Descubre ajustes de rendimiento, programas útiles y más.</p>
-</div>
-
-<!-- Sección de Optimizaciones Android -->
-<div class="section" id="optimizaciones-android">
-    <h3>Optimizaciones Android</h3>
-    <p>Si quieres mejorar el rendimiento de tu dispositivo Android, aquí te ofrecemos guías completas para optimizar tu sistema, gestionar la memoria, eliminar apps innecesarias y prolongar la duración de la batería.</p>
-</div>
-
-<!-- Sección de Juegos De Paga Gratis -->
-<div class="section" id="juegos-paga-gratis">
-    <h3>Juegos De Paga Gratis</h3>
-    <p>Accede a juegos de paga gratis, sin necesidad de gastar un solo centavo. Te ofrecemos enlaces, trucos y tutoriales para conseguir juegos premium de forma gratuita de manera legal y segura.</p>
-</div>
-
-<!-- Sección de Lore -->
-<div class="section" id="lore">
-    <h3>Lore</h3>
-    <p>Aquí encontrarás historias fascinantes, detalles de personajes, y toda la información detrás de los juegos, series y películas más populares. Si te apasiona el lore, este es tu lugar.</p>
-</div>
-
-<!-- Sección de Contacto -->
-<div class="section" id="contacto">
-    <h3>Contacto</h3>
-    <p>Si tienes preguntas, sugerencias o deseas contactar con nosotros, no dudes en enviarnos un mensaje. Estaremos encantados de ayudarte con todo lo relacionado con optimización y más.</p>
-</div>
-
-<footer>
-    <p>&copy; 2025 Mentita Optis - Todos los derechos reservados</p>
-</footer>
-
+    <!-- Sección Optimizaciones Android -->
+    <div class="section" id="optimizaciones-android">
+        <h3>Optimizaciones Android</h3>
+        <div class="section-content">
+            <p>Si quieres mejorar el rendimiento de tu dispositivo Android, aquí te ofrecemos guías completas para optimizar tu sistema, gestionar la memoria, eliminar apps innecesarias y prolongar la duración de la batería.</p>
+        </div>
+    </div>
+    
+    <!-- Sección Juegos de Paga Gratis -->
+    <div class="section" id="juegos-de-paga">
+        <h3>Juegos De Paga Gratis</h3>
+        <div class="section-content">
+            <p>Explora juegos premium que puedes conseguir gratis. Aquí te dejamos las mejores opciones de juegos de paga que ahora puedes jugar sin costo alguno.</p>
+        </div>
+    </div>
+    
+    <!-- Sección Lore -->
+    <div class="section" id="lore">
+        <h3>Lore</h3>
+        <div class="section-content">
+            <p>Descubre la historia detrás de Mentita Optis, cómo comenzó este proyecto y qué lo hace único. ¡El viaje continúa!</p>
+        </div>
+    </div>
+    
+    <!-- Sección Contacto -->
+    <div class="section" id="contacto">
+        <h3>Contacto</h3>
+        <div class="section-content">
+            <p>Si deseas ponerte en contacto con nosotros para sugerencias o preguntas, no dudes en escribirnos.</p>
+        </div>
+    </div>
+    
 </body>
 </html>
