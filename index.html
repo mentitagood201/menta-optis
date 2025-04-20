@@ -6,41 +6,61 @@
     <title>Menta Optis</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
 
         header {
-            background-color: #333;
+            background-color: #4CAF50;
             color: white;
             text-align: center;
-            padding: 10px 0;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
         }
 
         nav {
-            background-color: #444;
+            background-color: #333;
             padding: 10px;
+            text-align: center;
         }
 
         nav a {
             color: white;
-            margin: 0 10px;
             text-decoration: none;
+            padding: 10px 15px;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #575757;
         }
 
         section {
-            padding: 20px;
             margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         footer {
-            text-align: center;
-            padding: 10px;
             background-color: #333;
             color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
         }
     </style>
 </head>
@@ -53,6 +73,7 @@
     <nav>
         <a href="#seccion1">Sección 1</a>
         <a href="#seccion2">Sección 2</a>
+        <a href="#seccion3">Sección 3</a>
     </nav>
 
     <section id="seccion1">
@@ -63,6 +84,11 @@
     <section id="seccion2">
         <h2>Sección 2</h2>
         <p>En esta sección puedes poner más contenido, imágenes, videos o lo que necesites para tu página web.</p>
+    </section>
+
+    <section id="seccion3">
+        <h2>Sección 3</h2>
+        <p>Aquí puedes hablar sobre tus servicios, tu equipo, o cualquier otra cosa que desees incluir en tu sitio.</p>
     </section>
 
     <footer>
