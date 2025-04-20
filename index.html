@@ -3,97 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menta Optis</title>
+    <title>Mi Sitio Web</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #f0f0f0;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
         }
-
         header {
-            background-color: #4CAF50;
-            color: white;
+            background-color: #333;
+            padding: 10px;
             text-align: center;
-            padding: 20px;
         }
-
         header h1 {
             margin: 0;
-            font-size: 2.5em;
+            color: #4CAF50;
         }
-
         nav {
-            background-color: #333;
+            text-align: center;
+            background-color: #444;
             padding: 10px;
+        }
+        nav a {
+            color: #f0f0f0;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        .content {
+            padding: 20px;
             text-align: center;
         }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 15px;
-            margin: 0 10px;
-            transition: background-color 0.3s ease;
-        }
-
-        nav a:hover {
-            background-color: #575757;
-        }
-
-        section {
-            margin: 20px;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
         footer {
             background-color: #333;
-            color: white;
+            color: #f0f0f0;
             text-align: center;
             padding: 10px;
-            margin-top: 20px;
-        }
-
-        footer p {
-            margin: 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Bienvenido a Menta Optis</h1>
-    </header>
+<header>
+    <h1>Mi Sitio Web</h1>
+</header>
 
-    <nav>
-        <a href="#seccion1">Sección 1</a>
-        <a href="#seccion2">Sección 2</a>
-        <a href="#seccion3">Sección 3</a>
-    </nav>
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Servidores</a>
+    <a href="#">Contacto</a>
+</nav>
 
-    <section id="seccion1">
-        <h2>Sección 1</h2>
-        <p>Este es el contenido de la primera sección. Aquí puedes hablar sobre tu proyecto, ideas, o lo que quieras mostrar.</p>
-    </section>
+<div class="content">
+    <h2>Bienvenido a mi sitio web</h2>
+    <p>Aquí encontrarás información sobre mis servidores y más.</p>
+</div>
 
-    <section id="seccion2">
-        <h2>Sección 2</h2>
-        <p>En esta sección puedes poner más contenido, imágenes, videos o lo que necesites para tu página web.</p>
-    </section>
-
-    <section id="seccion3">
-        <h2>Sección 3</h2>
-        <p>Aquí puedes hablar sobre tus servicios, tu equipo, o cualquier otra cosa que desees incluir en tu sitio.</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Menta Optis</p>
-    </footer>
+<footer>
+    <p>&copy; 2025 Mi Sitio Web</p>
+</footer>
 
 </body>
 </html>
