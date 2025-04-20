@@ -82,6 +82,30 @@
             color: #333;
         }
 
+        /* Animación de entrada */
+        .by-mentita {
+            font-size: 1.5em;
+            color: #00b894;
+            font-weight: bold;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            animation: fadeInUp 2s ease-in-out forwards;
+            animation-delay: 3s; /* Se espera 3 segundos para que aparezca */
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
     </style>
 </head>
 <body>
@@ -151,5 +175,10 @@
         </div>
     </div>
     
+    <!-- Animación "By Mentita" -->
+    <div class="by-mentita">
+        By mentitagood201
+    </div>
+
 </body>
 </html>
